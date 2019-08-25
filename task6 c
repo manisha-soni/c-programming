@@ -1,0 +1,31 @@
+#include<stdio.h>
+main()
+{
+int number,originalnumber,remainder1,remainder2,count=0;
+printf("enter any number");
+scanf("%d",&number);
+while(number=!0)
+{
+remainder1=number%10;
+count++;
+number=number/10;
+}
+originalnumber=number;
+while(originalnumber=!0)
+{
+remainder2originalnumber%10;
+for(i=1;i<=count;i++)
+{
+result+=remainder2*i;
+}
+originalnumber=originalnumber/10;
+}
+if(result=number)
+{
+printf("it is a amstrong number");
+}
+else
+{
+printf("it is not a amstrong number");
+}
+}
