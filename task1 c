@@ -1,0 +1,15 @@
+#include<stdio.h>
+main()
+{
+char name;
+int age=0,number=0;
+printf("enter name");
+scanf("%c",&name);
+printf("the name is %d",name);
+printf("enter age");
+scanf("%d",&age);
+printf("the age is %d",age);
+printf("enter number");
+scanf("%d",&number);
+printf("the number is %d",number);
+}
